@@ -1,3 +1,5 @@
+# @AngularClass
+
 # Logs
 logs
 *.log
@@ -11,58 +13,49 @@ pids
 lib-cov
 
 # Coverage directory used by tools like istanbul
-coverage/
-# Reports directory used by tools like protractor
-reports/
+coverage
 
-# Build
-build/
-dist/
-.tmp
-.cache/
-
-# Vendor files
-node_modules
-bower_components
-vendor
-
-# Temp directories
-temp/
-test/tmp
-test/temp
-
-# Other temp
-.sass-cache
+# Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
 .grunt
 
-# Shippable directory
-shippable/
+# Compiled binary addons (http://nodejs.org/api/addons.html)
+build/Release
 
-# OS generated files
+# Users Environment Variables
+.lock-wscript
+
+# OS generated files #
 .DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
 ehthumbs.db
+Icon?
 Thumbs.db
 
-# Cordova
-platforms/
-plugins/
+# Node Files #
+/node_modules
+/bower_components
+npm-debug.log
 
-# Visual Studio Code
-.vscode/
+# Coverage #
+/coverage/
 
-# Visual Studio
-*.csproj.user
-obj/
-*.suo
-*.csproj.user
-*.DotSettings.user
+# Typing #
+/src/typings/tsd/
+/typings/
+/tsd_typings/
 
-# Fuse
-.build/
+# Dist #
+/dist
+/public/__build__/
+/src/*/__build__/
+/__build__/**
+/public/dist/
+/src/*/dist/
+/dist/**
+.webpack.json
 
-# Changelog
-CHANGELOG.md
+# Doc #
+/doc/
+
+# IDE #
+.idea/
+*.swp
